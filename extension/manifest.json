@@ -1,0 +1,12 @@
+{
+  "name": "Link Last.fm festival lineups to audio resolvers",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Add audio resolver links to artists on Last.fm pages.",
+  "content_scripts" : [
+    {
+      "matches" : ["http://www.last.fm/festival/*"],
+      "js" : ["script.js"]
+    }
+  ]
+}
